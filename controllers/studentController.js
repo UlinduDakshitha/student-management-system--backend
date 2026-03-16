@@ -15,6 +15,7 @@ exports.getStudent = async (req, res) => {
   res.json(student);
 };
 
+
 exports.updateStudent = async (req, res) => {
 
   await Student.update(req.body, {
