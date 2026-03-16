@@ -5,4 +5,5 @@ const sequelize = new Sequelize("student_db", "root", "Ulindu@123", {
   dialect: "mysql",
 });
 
+
 module.exports = sequelize;
